@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  border: 2px black solid;
+  border-radius: 6px;
+  max-width: fit-content;
+  padding: 10px;
+  margin: 50px auto;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  background-color: rgb(167, 148, 184);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(42, 39, 39);
+}
+
+.flex-basic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+#heading {
+  color: rgb(145, 112, 176);
+  font-size: 60px;
+}
+
+.color-white {
+  color: #fff;
+}
