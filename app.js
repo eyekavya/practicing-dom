@@ -82,14 +82,3 @@ console.log(ul.nextSibling);
 
 console.log(ul.previousElementSibling);
 console.log(ul.nextElementSibling);
-
-const btn = document.querySelector("button");
-btn.addEventListener("click", a);
-
-function a() {
-  alert("Hey");
-}
-
-btn.addEventListener("mouseover", b);
-
-function b() {}
